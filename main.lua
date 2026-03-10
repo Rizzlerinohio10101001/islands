@@ -18,7 +18,7 @@ local data = HttpService:JSONDecode(response)
 
 if data.status == "valid" then
 
-    loadstring(game:HttpGet("YOUR_MAIN_SCRIPT"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MERZH-T/ISLANDS/refs/heads/main/main"))()
 
 elseif data.status == "expired" then
 
